@@ -12,5 +12,7 @@ namespace Arrivals
 		public string LineName { get; internal set; }
 		public string CurrentLocation { get; internal set; }
 		public string Towards { get; internal set; }
+		public string Id { get; internal set; }
+		public long TimeToStation { get; internal set; }
 	}
 }
